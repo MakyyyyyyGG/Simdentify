@@ -180,7 +180,7 @@ function App() {
             <div className="flex flex-col justify-center items-center mt-10">
               <form
                 onSubmit={handleSubmit}
-                className="flex gap-4 flex-col border p-10 rounded-2xl  w-[400px] sm:w-[500px]"
+                className="flex gap-4 flex-col border p-10 rounded-2xl  w-[300px] sm:w-[500px]"
               >
                 <h1 className="text-2xl font-bold">
                   Enter the first 4 digits of your phone number.
