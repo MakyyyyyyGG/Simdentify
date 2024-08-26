@@ -164,7 +164,7 @@ function App() {
                 <h1 className="text-3xl font-bold text-violet-800 mr-2">
                   SimDentify
                 </h1>
-                <a href="https://github.com/MarkyyyyyyGG">
+                <a href="https://www.facebook.com/Markyyyyyy.Clerigo/">
                   <p className="text-slate-500 text-[13px] underline underline-offset-4">
                     By MarkyyyyyyGG
                   </p>
@@ -190,7 +190,7 @@ function App() {
                   onChange={(event) => setNumber(event.target.value)}
                 />
                 <button className=" py-4 px-8 rounded-2xl  bg-violet-500 text-white text-xl font-bold">
-                  Submit
+                  Identify
                 </button>
               </form>
             </div>
