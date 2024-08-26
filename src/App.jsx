@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Switch } from "@nextui-org/react";
 import { Sun, Moon } from "lucide-react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 function App() {
   const [number, setNumber] = useState("");
   const [simImage, setSimImage] = useState("");
@@ -201,7 +200,7 @@ function App() {
                 <input
                   required
                   type="text"
-                  className=" rounded-2x  py-4 px-8 rounded-2xl bg-[#f5f7fa]"
+                  className=" rounded-2x  py-4 px-8 rounded-2xl bg-[#f5f7fa] "
                   placeholder="e.g. 0905"
                   onChange={(event) => setNumber(event.target.value)}
                 />
