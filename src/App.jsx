@@ -166,7 +166,16 @@ function App() {
                 width={"80px"}
                 className="rounded-2xl mr-2"
               />
-              <h1 className="text-3xl font-bold text-violet-800">SimDentify</h1>
+              <div>
+                <h1 className="text-3xl font-bold text-violet-800 mr-2">
+                  SimDentify
+                </h1>
+                <a href="https://github.com/MarkyyyyyyGG">
+                  <p className="text-slate-500 text-[13px] underline underline-offset-4">
+                    By MarkyyyyyyGG
+                  </p>
+                </a>
+              </div>
             </div>
             <div className="flex flex-col justify-center items-center mt-10">
               <form
@@ -193,11 +202,11 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex-1 p-2 ">
+        <div className="flex-1 p-2 hidden sm:block">
           <img
             src="simbg2.png"
             alt=""
-            className="w-full h-full object-cover rounded-3xl"
+            className="w-full h-full object-cover rounded-3xl "
           />
         </div>
       </div>
