@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Switch } from "@nextui-org/react";
 import { Sun, Moon } from "lucide-react";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 function App() {
   const [number, setNumber] = useState("");
   const [simImage, setSimImage] = useState("");
