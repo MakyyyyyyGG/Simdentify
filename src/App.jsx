@@ -224,11 +224,11 @@ function App() {
       {/* Modal */}
       {isModalOpen && simImage && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center transition-opacity duration-300"
+          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center transition-opacity duration-300 z-50"
           onClick={closeModal}
         >
           <motion.div
-            className="bg-white p-4 rounded-2xl shadow-lg transform"
+            className="bg-white p-4 rounded-2xl shadow-lg transform z-50"
             onClick={(e) => e.stopPropagation()}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -237,7 +237,7 @@ function App() {
           >
             <img
               src={simImage}
-              className="w-80 h-80 object-cover"
+              className="w-80 h-80 object-cover z-50"
               alt="SIM Provider"
             />
           </motion.div>
