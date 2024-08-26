@@ -189,7 +189,7 @@ function App() {
                   placeholder="e.g. 0905"
                   onChange={(event) => setNumber(event.target.value)}
                 />
-                <button className=" py-4 px-8 rounded-2xl  bg-violet-500 text-white text-xl">
+                <button className=" py-4 px-8 rounded-2xl  bg-violet-500 text-white text-xl font-bold">
                   Submit
                 </button>
               </form>
