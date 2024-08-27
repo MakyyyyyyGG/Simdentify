@@ -2,6 +2,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Switch } from "@nextui-org/react";
 import { Sun, Moon } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
+import { Helmet } from "react-helmet";
+
 function App() {
   const [number, setNumber] = useState("");
   const [simImage, setSimImage] = useState("");
@@ -155,6 +158,18 @@ function App() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
+      <Helmet>
+        <title>SimDentify - Identify SIM Provider</title>
+        <meta
+          name="description"
+          content="Enter the first 4 digits of your phone number to identify the SIM card provider."
+        />
+        <meta
+          name="keywords"
+          content="SIM, phone number, provider, Smart, Globe, TNT, DITO, TM"
+        />
+        <meta name="author" content="MarkyyyyyyGG" />
+      </Helmet>
       <div className="flex w-screen h-screen dark:bg-neutral-800">
         <div className="flex-1 flex flex-col justify-center items-center">
           <div>
